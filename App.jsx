@@ -5,6 +5,7 @@ import { MdDelete } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 import CurrentDate from './component/Cuurentdate';
 
+
 function App() {
   const [todo, settodo] = useState("") //input
   const [todos, settodos] = useState([]) //exisiting todo
