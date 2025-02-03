@@ -10,7 +10,6 @@ function App() {
   const [todo, settodo] = useState("") //input
   const [todos, settodos] = useState([]) //exisiting todo
   const [finished, setfinished] = useState(true)
-
   // load data
   useEffect(() => {
     let todostring = localStorage.getItem("todos")
