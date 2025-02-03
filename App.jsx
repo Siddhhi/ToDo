@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import Navbar from './component/Navbar'
 import { v4 as uuidv4 } from 'uuid';
 import { MdDelete } from "react-icons/md";
-
 import { FaEdit } from "react-icons/fa";
 import CurrentDate from './component/Cuurentdate';
 
